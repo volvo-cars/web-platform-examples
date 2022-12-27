@@ -1,0 +1,33 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", "npm:unpublishSafe", ":semanticCommitsDisabled"],
+  "branchPrefix": "renovate/",
+  "onboarding": false,
+  "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
+  "prConcurrentLimit": 15,
+  "timezone": "Europe/Stockholm",
+  "schedule": [
+    "after 8pm every weekday",
+    "before 8am every weekday",
+    "every weekend"
+  ],
+  "enabledManagers": [
+    "azure-pipelines",
+    "dockerfile",
+    "github-actions",
+    "npm",
+    "nvm",
+    "terraform"
+  ],
+  "vulnerabilityAlerts": {
+    "prPriority": 10
+  },
+  "postUpdateOptions": ["yarnDedupeHighest"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    }
+  ]
+}
