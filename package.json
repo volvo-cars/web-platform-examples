@@ -1,0 +1,11 @@
+{
+  "name": "web-platform-examples",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "scaffold": "yarn create next-app"
+  },
+  "workspaces": [
+    "*"
+  ]
+}
