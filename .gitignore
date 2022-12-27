@@ -1,0 +1,57 @@
+# Misc files
+.DS_store
+.idea/
+.vscode/**
+!.vscode/tasks.json
+!.vscode/extensions.json
+!.vscode/settings.json
+*.log
+# Tool output
+node_modules/
+coverage/
+package-lock.json
+
+# Build output
+**/dist/
+**/lib/
+!.github/actions/**/dist/
+.next/
+storybook-static/
+.version
+packages/*/dist/
+packages/*/es/
+packages/*/esnext/
+packages/*/package/
+packages/*/package.tgz
+out/
+
+
+.env
+.env*.local
+/.env.secrets
+.reg
+.captures
+/.vs
+
+
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+!.yarn/offline-cache
+!.yarn/local-packs
+.pnp.*
+shared/leads-utils/dummy.json
+
+
+# Cache
+**/.tsbuildinfo
+**/ts-dist
+tsconfig.tsbuildinfo
+.eslintcache
+
+
+# Custom workspace configuration
+custom.code-workspace
