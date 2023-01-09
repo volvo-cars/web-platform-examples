@@ -188,10 +188,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@volvo-cars/market-sites@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@volvo-cars/market-sites@npm:1.7.0"
-  checksum: fab8cdc99881ebb0d35ffa2326e7f63d462c3010c2780c1668eacff142fc72a56bcba680f7aa7b23fcafbb2e679aeceed18bce49c4b0f57c4b76ca778f36f3b2
+"@volvo-cars/market-sites@npm:1.7.2":
+  version: 1.7.2
+  resolution: "@volvo-cars/market-sites@npm:1.7.2"
+  checksum: 1f4bdf1871506d47a442749be7bb5cdbd950d0641eea6857760ddcb1551d1c79b6bf936596a0bd9787272ed7c9898e1cc78fa456c1da4f70349d96f0b59388cf
   languageName: node
   linkType: hard
 
@@ -677,7 +677,7 @@ __metadata:
     "@types/node": 18.11.18
     "@types/react": 18.0.26
     "@types/react-dom": 18.0.10
-    "@volvo-cars/market-sites": 1.7.0
+    "@volvo-cars/market-sites": 1.7.2
     "@volvo-cars/site-nav-embed": 3.1.0
     next: 13.1.1
     react: 18.2.0
