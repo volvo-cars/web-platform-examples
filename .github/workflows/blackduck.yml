@@ -3,6 +3,9 @@ on:
   pull_request:
     branches:
       - master
+  schedule:
+    # Every Monday at 08:00
+    - 0 08 * * 1
 jobs:
   security:
     runs-on: ubuntu-latest
@@ -21,7 +24,6 @@ jobs:
       - name: Run Synopsys Detect
         uses: synopsys-sig/detect-action@v0.3.0
         with:
-          scan-mode: INTELLIGENT
           github-token: ${{ secrets.GITHUB_TOKEN }}
           detect-version: 7.9.0
           blackduck-url: ${{ secrets.BLACKDUCK_URL }}
