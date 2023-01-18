@@ -18,14 +18,6 @@ jobs:
       - name: Install Yarn deps
         run: yarn install --immutable --immutable-cache
 
-      - name: Create Black Duck Policy
-        uses: blackducksoftware/create-policy-action@v0.0.1
-        with:
-          blackduck-url: ${{ secrets.BLACKDUCK_URL }}
-          blackduck-api-token: ${{ secrets.BLACKDUCK_API_TOKEN }}
-          policy-name: "GitHub Action Policy"
-          no-fail-if-policy-exists: true
-
       - name: Run Synopsys Detect
         uses: synopsys-sig/detect-action@v0.3.0
         with:
