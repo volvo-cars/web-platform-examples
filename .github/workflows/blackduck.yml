@@ -18,9 +18,6 @@ jobs:
           java-version: "11"
           distribution: "adopt"
 
-      - name: Install Yarn deps
-        run: yarn install --immutable --immutable-cache
-
       - name: Run Synopsys Detect
         uses: synopsys-sig/detect-action@v0.3.0
         with:
