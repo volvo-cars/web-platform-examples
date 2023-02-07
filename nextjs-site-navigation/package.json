@@ -13,7 +13,7 @@
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
     "@volvo-cars/market-sites": "1.7.2",
-    "@volvo-cars/site-nav-embed": "3.1.0",
+    "@volvo-cars/site-nav-embed": "3.2.0",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
