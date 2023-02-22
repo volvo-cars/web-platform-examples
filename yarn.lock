@@ -5,21 +5,12 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@babel/runtime@npm:7.19.0":
-  version: 7.19.0
-  resolution: "@babel/runtime@npm:7.19.0"
-  dependencies:
-    regenerator-runtime: ^0.13.4
-  checksum: fa69c351bb05e1db3ceb9a02fdcf620c234180af68cdda02152d3561015f6d55277265d3109815992f96d910f3db709458cae4f8df1c3def66f32e0867d82294
-  languageName: node
-  linkType: hard
-
-"@babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.17.0":
-  version: 7.20.7
-  resolution: "@babel/runtime@npm:7.20.7"
+"@babel/runtime@npm:7.20.13, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.17.0":
+  version: 7.20.13
+  resolution: "@babel/runtime@npm:7.20.13"
   dependencies:
     regenerator-runtime: ^0.13.11
-  checksum: 4629ce5c46f06cca9cfb9b7fc00d48003335a809888e2b91ec2069a2dcfbfef738480cff32ba81e0b7c290f8918e5c22ddcf2b710001464ee84ba62c7e32a3a3
+  checksum: 09b7a97a05c80540db6c9e4ddf8c5d2ebb06cae5caf3a87e33c33f27f8c4d49d9c67a2d72f1570e796045288fad569f98a26ceba0c4f5fad2af84b6ad855c4fb
   languageName: node
   linkType: hard
 
@@ -239,19 +230,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@volvo-cars/site-nav-embed@npm:3.2.0":
-  version: 3.2.0
-  resolution: "@volvo-cars/site-nav-embed@npm:3.2.0"
+"@volvo-cars/site-nav-embed@npm:3.2.1":
+  version: 3.2.1
+  resolution: "@volvo-cars/site-nav-embed@npm:3.2.1"
   dependencies:
-    "@babel/runtime": 7.19.0
+    "@babel/runtime": 7.20.13
     "@types/node-fetch": ^2.6.2
-    node-fetch: ^2.6.7
+    node-fetch: ^2.6.9
   peerDependencies:
     react: "*"
     react-dom: "*"
     react-fela: ^12.0.0
     vcc-ui: "*"
-  checksum: d5e9f49cbaeb8dcad5fd2f58849eeff9632c46319c13d936581056bbfcb43ed82d2e6c1c41d074909ba88e29da0a51aacbf9c7b0e3d9b588b3a21cc054742383
+  checksum: 2119305423435a6f32135c338b03300ba5b2a0a538196b6ecc1877f10ccb6b3a957c98711cd6cc3caf5b033dfa0e4694477e44b1d32c765f9d11ab53b9adc78e
   languageName: node
   linkType: hard
 
@@ -678,7 +669,7 @@ __metadata:
     "@types/react": 18.0.28
     "@types/react-dom": 18.0.10
     "@volvo-cars/market-sites": 1.7.3
-    "@volvo-cars/site-nav-embed": 3.2.0
+    "@volvo-cars/site-nav-embed": 3.2.1
     next: 13.1.6
     react: 18.2.0
     react-dom: 18.2.0
@@ -687,9 +678,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"node-fetch@npm:^2.6.7":
-  version: 2.6.7
-  resolution: "node-fetch@npm:2.6.7"
+"node-fetch@npm:^2.6.9":
+  version: 2.6.9
+  resolution: "node-fetch@npm:2.6.9"
   dependencies:
     whatwg-url: ^5.0.0
   peerDependencies:
@@ -697,7 +688,7 @@ __metadata:
   peerDependenciesMeta:
     encoding:
       optional: true
-  checksum: 8d816ffd1ee22cab8301c7756ef04f3437f18dace86a1dae22cf81db8ef29c0bf6655f3215cb0cdb22b420b6fe141e64b26905e7f33f9377a7fa59135ea3e10b
+  checksum: acb04f9ce7224965b2b59e71b33c639794d8991efd73855b0b250921382b38331ffc9d61bce502571f6cc6e11a8905ca9b1b6d4aeb586ab093e2756a1fd190d0
   languageName: node
   linkType: hard
 
@@ -788,7 +779,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"regenerator-runtime@npm:^0.13.11, regenerator-runtime@npm:^0.13.4":
+"regenerator-runtime@npm:^0.13.11":
   version: 0.13.11
   resolution: "regenerator-runtime@npm:0.13.11"
   checksum: 27481628d22a1c4e3ff551096a683b424242a216fee44685467307f14d58020af1e19660bf2e26064de946bad7eff28950eae9f8209d55723e2d9351e632bbb4
