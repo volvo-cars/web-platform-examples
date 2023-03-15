@@ -186,47 +186,47 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@volvo-cars/react-aria@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@volvo-cars/react-aria@npm:0.3.0"
+"@volvo-cars/react-aria@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "@volvo-cars/react-aria@npm:0.3.1"
   dependencies:
-    "@volvo-cars/react-descendants": ^0.5.0
+    "@volvo-cars/react-descendants": ^0.5.2
   peerDependencies:
     react: ^16.3.0 || ^17.0.0 || ^18.0.0
-  checksum: f1c9a33d2bac0c5cbc670e25a3b87d7ebe7c309742ac9bd4a1ef7f78c86d448d34c6cb1ff49c66520f702455d3b58f7c65dcdf61f2efcd5ebf2ac9792a9ab5a0
+  checksum: d7f2dbfaca621070aef80fb45fb464ee048aee690bea7802de5e95870dc5e1f9af71324b5a5164cc5bf6019d2b9328d43dd243da42b62a62f2628ffaed093bd8
   languageName: node
   linkType: hard
 
-"@volvo-cars/react-descendants@npm:^0.5.0":
-  version: 0.5.1
-  resolution: "@volvo-cars/react-descendants@npm:0.5.1"
+"@volvo-cars/react-descendants@npm:^0.5.2":
+  version: 0.5.2
+  resolution: "@volvo-cars/react-descendants@npm:0.5.2"
   dependencies:
-    "@volvo-cars/react-layout-utils": ^0.7.0
+    "@volvo-cars/react-layout-utils": ^0.7.1
   peerDependencies:
     react: ^16.3.0 || ^17.0.0 || ^18.0.0
-  checksum: 1c1b42762ab387deddb95cf83ea61e36a77c1cd6d9940ec81830951b6011b5d410972d257ac551de7dcf48b69a7483e2d8de88a91edce2280c7fe985a930f213
+  checksum: 2ebfc6a8b54fee63ca6f64207c236c4a0cdb34a245d7bf8b496c6fe6dda6efced46588ff0e8ce64f440defe37d3bf6c3f8c5f2ae712bcadc2f45588fdef5e371
   languageName: node
   linkType: hard
 
-"@volvo-cars/react-layout-utils@npm:^0.7.0":
-  version: 0.7.0
-  resolution: "@volvo-cars/react-layout-utils@npm:0.7.0"
+"@volvo-cars/react-layout-utils@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "@volvo-cars/react-layout-utils@npm:0.7.1"
   dependencies:
-    "@volvo-cars/react-utils": ^1.0.0
+    "@volvo-cars/react-utils": ^1.0.1
     lodash: ^4.17.21
     use-resize-observer: ^9.0.0
   peerDependencies:
     react: ^16.3.0 || ^17.0.0 || ^18.0.0
-  checksum: 69e533ef8a60f9ce4f153d2db991565527dacaae55049ece45ab9d6c40a4a825a7fce8e5823ff0dc4c2d4aacbf75db5e76b45e0a7b5b833f1541bbde25549b5a
+  checksum: 4ee51324309731533c23fc802da35c53be498ca804b7bf2cbdd53c81b8b56551e44f70111df535f13f49abd2955a73e35472f52098b83c755ed4fb21cfb7c949
   languageName: node
   linkType: hard
 
-"@volvo-cars/react-utils@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@volvo-cars/react-utils@npm:1.0.0"
+"@volvo-cars/react-utils@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@volvo-cars/react-utils@npm:1.0.1"
   peerDependencies:
     react: ^16.3.0 || ^17.0.0 || ^18.0.0
-  checksum: fe4fe118da3eca49528bc89f5005a0eb17820274e04665b5a1c80e8f303199571fe56635b573030f0fdcdb664c7c5960130c63a63a55e5cf27739a422f21a258
+  checksum: b489c3c70c6af789acdfb7829d0a28048d0841f59f5a0765d9eb112b76baa7d12a7d6c26ebd66f72b85fde1641abd5d020b978ec3cb5c29fb310c65a77f97101
   languageName: node
   linkType: hard
 
@@ -246,10 +246,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@volvo-cars/ui-design-tokens@npm:^2.14.1":
-  version: 2.14.1
-  resolution: "@volvo-cars/ui-design-tokens@npm:2.14.1"
-  checksum: 03ea582ec0c827716800d3837c89948447b429dabad385dca42101b68ca90f097944e0be87ee4b99553730091ec05567fa38f14e503ce80055922ac41ee22b15
+"@volvo-cars/ui-design-tokens@npm:^2.15.1":
+  version: 2.15.1
+  resolution: "@volvo-cars/ui-design-tokens@npm:2.15.1"
+  checksum: 076f802b9f671199377ad5239a70f943d25c96b504ed8cd0b0642e48c0b6afffcd775c02629a0b454e0a8e619c5d11291e82e590b39c0623c4aee44df893534c
   languageName: node
   linkType: hard
 
@@ -898,12 +898,12 @@ __metadata:
   linkType: hard
 
 "vcc-ui@npm:^3.9.1":
-  version: 3.9.1
-  resolution: "vcc-ui@npm:3.9.1"
+  version: 3.15.1
+  resolution: "vcc-ui@npm:3.15.1"
   dependencies:
     "@babel/runtime": ^7.17.0
-    "@volvo-cars/react-aria": ^0.3.0
-    "@volvo-cars/ui-design-tokens": ^2.14.1
+    "@volvo-cars/react-aria": ^0.3.1
+    "@volvo-cars/ui-design-tokens": ^2.15.1
     css-in-js-utils: ^3.0.4
     csstype: ^3.0.6
     fast-loops: ^1.1.3
@@ -927,7 +927,7 @@ __metadata:
   peerDependencies:
     "@types/react": ">= 16.3.0"
     react: ^16.3.0 || ^17.0.0 || ^18.0.0
-  checksum: 66085ef6976958bb924528543499d6a45ae5c7ccd158b8ff8672bbee5ca966982737ee99e87f466fca01762b247dec13e58d662489b5314b7496c42482f0f9ae
+  checksum: b8a0c8f2b2ae8362f8e0ec05a63db6c9d4a2675c49efe63c42d282f0e34e7e0a1c96a07941ee36526c99f6e100ff834ee17dedc6ace6404c9b2d86d140673cb5
   languageName: node
   linkType: hard
 
