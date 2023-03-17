@@ -2,9 +2,6 @@ Copyright 2023 Volvo Car Corporation
 
 [web-platform-examples : 0.1.0]
 
-Phase: DEVELOPMENT
-Distribution: EXTERNAL
-
 Components: 
 
 @babel/runtime 7.19.0 : MIT License
