@@ -2,7 +2,7 @@
 
 Thanks for taking the time to contribute!
 
-This project adheres to the Contributor Covenant [code of conduct](.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to ali.zeaiter@volvocars.com.
+This project adheres to the Contributor Covenant [code of conduct](.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to opensource@volvocars.com.
 
 The following is a set of guidelines for contributing to this open source
 project. These are just guidelines, not rules, use your best judgment and feel
