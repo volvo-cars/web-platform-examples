@@ -647,7 +647,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     typescript: 5.0.4
-    vcc-ui: ^3.9.1
+    vcc-ui: ^4.0.0
   languageName: unknown
   linkType: soft
 
@@ -874,9 +874,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vcc-ui@npm:^3.9.1":
-  version: 3.17.0
-  resolution: "vcc-ui@npm:3.17.0"
+"vcc-ui@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "vcc-ui@npm:4.0.0"
   dependencies:
     "@babel/runtime": ^7.17.0
     "@volvo-cars/react-aria": ^0.3.1
@@ -902,9 +902,9 @@ __metadata:
     fela-tools: ^12.2.0
     react-fela: ^12.2.0
   peerDependencies:
-    "@types/react": ">= 16.3.0"
-    react: ^16.3.0 || ^17.0.0 || ^18.0.0
-  checksum: 6efe99079eb1be89b4164f313091347689f38aa242f585bdabda01c57f7df56b333dd552f13816c2313b2eb5efd0194c3a04987e0a0f504616786d07df508088
+    "@types/react": ">= 17.0.0"
+    react: ^17.0.0 || ^18.0.0
+  checksum: eebc33e8ac6ebc17e1d3e588ea2c1d5544aa8f06adef32edcd528e48bcb93bd741d145b2c1e0fb38042bfeeaece1608c7bcc99805438e5cad98f98c4c40ad992
   languageName: node
   linkType: hard
 
