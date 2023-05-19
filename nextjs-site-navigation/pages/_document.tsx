@@ -21,6 +21,11 @@ import {
   SiteNavigationEmbed,
   SiteNavigationProps,
 } from "@volvo-cars/site-nav-embed";
+import {
+  getSiteFooterPropsForRequest,
+  SiteFooterEmbed,
+  SiteFooterProps,
+} from '@volvo-cars/site-footer-embed';
 import NextDocument, {
   DocumentContext,
   Head,
@@ -31,6 +36,7 @@ import NextDocument, {
 
 class Document extends NextDocument<{
   siteNavProps: SiteNavigationProps;
+  siteFooterProps: SiteFooterProps
 }> {
   static async getInitialProps(ctx: DocumentContext) {
     const { query, req } = ctx;
@@ -41,15 +47,18 @@ class Document extends NextDocument<{
 
     const siteNavProps = await getSiteNavigationPropsForRequest(siteSlug, req);
 
+    const siteFooterProps = await getSiteFooterPropsForRequest(siteSlug, req);
+
     const initialProps = await NextDocument.getInitialProps(ctx);
     return {
       ...initialProps,
       siteNavProps,
+      siteFooterProps
     };
   }
 
   render() {
-    const { siteNavProps } = this.props;
+    const { siteNavProps, siteFooterProps } = this.props;
     return (
       <Html>
         <Head />
@@ -57,6 +66,7 @@ class Document extends NextDocument<{
           {/* should always be outside Main to prevent re-mounting client-side, which would cause it to lose the html coming from the initial page load*/}
           <SiteNavigationEmbed {...siteNavProps} />
           <Main />
+          <SiteFooterEmbed {...siteFooterProps} />
           <NextScript />
         </body>
       </Html>
