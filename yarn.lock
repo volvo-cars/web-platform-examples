@@ -215,22 +215,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@volvo-cars/site-nav-embed@npm:3.3.0":
-  version: 3.3.0
-  resolution: "@volvo-cars/site-nav-embed@npm:3.3.0"
-  dependencies:
-    "@babel/runtime": 7.20.13
-    "@types/node-fetch": ^2.6.2
-    node-fetch: ^2.6.9
-  peerDependencies:
-    react: "*"
-    react-dom: "*"
-    react-fela: ^12.0.0
-    vcc-ui: "*"
-  checksum: 9c3610c44113db1b15fbd00909b355c82fe6bbefd3647192a6ff1bc9a28c8575ed256fca346b1fa0339db9dee96258fc4f502f6c7d46aa3ccdbfcf5f7983cdae
-  languageName: node
-  linkType: hard
-
 "@volvo-cars/ui-design-tokens@npm:^2.17.0":
   version: 2.17.0
   resolution: "@volvo-cars/ui-design-tokens@npm:2.17.0"
@@ -648,6 +632,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nextjs-site-footer@workspace:nextjs-site-footer":
+  version: 0.0.0-use.local
+  resolution: "nextjs-site-footer@workspace:nextjs-site-footer"
+  dependencies:
+    "@types/node": 18.16.10
+    "@types/react": 18.2.6
+    "@types/react-dom": 18.2.4
+    "@volvo-cars/market-sites": 1.7.3
+    "@volvo-cars/site-footer-embed": 0.6.1
+    next: 13.4.2
+    react: 18.2.0
+    react-dom: 18.2.0
+    typescript: 5.0.4
+    vcc-ui: ^4.0.0
+  languageName: unknown
+  linkType: soft
+
 "nextjs-site-navigation@workspace:nextjs-site-navigation":
   version: 0.0.0-use.local
   resolution: "nextjs-site-navigation@workspace:nextjs-site-navigation"
@@ -657,7 +658,6 @@ __metadata:
     "@types/react-dom": 18.2.4
     "@volvo-cars/market-sites": 1.7.3
     "@volvo-cars/site-footer-embed": 0.6.1
-    "@volvo-cars/site-nav-embed": 3.3.0
     next: 13.4.2
     react: 18.2.0
     react-dom: 18.2.0
