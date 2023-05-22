@@ -17,10 +17,10 @@
 import React from "react";
 import { isValidSiteSlug, SiteSlug } from "@volvo-cars/market-sites";
 import {
-  getSiteNavigationPropsForRequest,
-  SiteNavigationEmbed,
-  SiteNavigationProps,
-} from "@volvo-cars/site-nav-embed";
+  getSiteFooterPropsForRequest,
+  SiteFooterEmbed,
+  SiteFooterProps,
+} from '@volvo-cars/site-footer-embed';
 import NextDocument, {
   DocumentContext,
   Head,
@@ -30,7 +30,7 @@ import NextDocument, {
 } from "next/document";
 
 class Document extends NextDocument<{
-  siteNavProps: SiteNavigationProps;
+  siteFooterProps: SiteFooterProps
 }> {
   static async getInitialProps(ctx: DocumentContext) {
     const { query, req } = ctx;
@@ -39,25 +39,24 @@ class Document extends NextDocument<{
         ? (query.siteSlug as SiteSlug)
         : "intl";
 
-    const siteNavProps = await getSiteNavigationPropsForRequest(siteSlug, req);
+    const siteFooterProps = await getSiteFooterPropsForRequest(siteSlug, req);
 
-    
     const initialProps = await NextDocument.getInitialProps(ctx);
     return {
       ...initialProps,
-      siteNavProps,
+      siteFooterProps
     };
   }
 
   render() {
-    const { siteNavProps } = this.props;
+    const { siteFooterProps } = this.props;
     return (
       <Html>
         <Head />
         <body>
           {/* should always be outside Main to prevent re-mounting client-side, which would cause it to lose the html coming from the initial page load*/}
-          <SiteNavigationEmbed {...siteNavProps} />
           <Main />
+          <SiteFooterEmbed {...siteFooterProps} />
           <NextScript />
         </body>
       </Html>
