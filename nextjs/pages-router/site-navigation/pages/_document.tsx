@@ -41,7 +41,6 @@ class Document extends NextDocument<{
 
     const siteNavProps = await getSiteNavigationPropsForRequest(siteSlug, req);
 
-    
     const initialProps = await NextDocument.getInitialProps(ctx);
     return {
       ...initialProps,

@@ -6,6 +6,7 @@
     "scaffold": "yarn create next-app"
   },
   "workspaces": [
-    "*"
+    "nextjs/*",
+    "nextjs/pages-router/*"
   ]
 }

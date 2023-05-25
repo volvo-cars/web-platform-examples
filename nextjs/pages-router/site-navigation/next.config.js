@@ -14,8 +14,9 @@
   limitations under the License. 
 */
 
-/// <reference types="next" />
-/// <reference types="next/image-types/global" />
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+};
 
-// NOTE: This file should not be edited
-// see https://nextjs.org/docs/basic-features/typescript for more information.
+module.exports = nextConfig;
