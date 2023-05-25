@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-site-footer",
+  "name": "nextjs-site-footer-pages-router",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,7 @@
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
     "@volvo-cars/market-sites": "1.7.3",
-    "@volvo-cars/site-footer-embed": "0.6.1",
+    "@volvo-cars/site-footer-embed": "1.0.0",
     "next": "13.4.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
