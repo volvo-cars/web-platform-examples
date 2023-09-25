@@ -14,7 +14,7 @@
     "@types/react-dom": "18.2.7",
     "@volvo-cars/market-sites": "1.7.3",
     "@volvo-cars/site-footer-embed": "1.0.0",
-    "next": "13.4.19",
+    "next": "13.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.2.2",
