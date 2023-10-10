@@ -11,7 +11,7 @@
   "dependencies": {
     "@types/node": "18.17.17",
     "@types/react": "18.2.25",
-    "@types/react-dom": "18.2.10",
+    "@types/react-dom": "18.2.11",
     "@volvo-cars/market-sites": "1.7.3",
     "@volvo-cars/site-footer-embed": "1.0.0",
     "@volvo-cars/site-nav-embed": "4.0.2",
