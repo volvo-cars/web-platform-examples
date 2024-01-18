@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@types/node": "20.11.3",
-    "@types/react": "18.2.47",
+    "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
     "@volvo-cars/market-sites": "1.7.3",
     "@volvo-cars/site-footer-embed": "1.0.0",
