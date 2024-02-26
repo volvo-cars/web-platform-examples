@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.11.19",
+    "@types/node": "20.11.20",
     "@types/react": "18.2.56",
     "@types/react-dom": "18.2.19",
     "@volvo-cars/market-sites": "1.7.3",
