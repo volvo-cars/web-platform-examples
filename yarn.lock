@@ -205,15 +205,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@volvo-cars/site-nav-embed@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@volvo-cars/site-nav-embed@npm:4.1.0"
+"@volvo-cars/site-nav-embed@npm:4.2.0":
+  version: 4.2.0
+  resolution: "@volvo-cars/site-nav-embed@npm:4.2.0"
   dependencies:
     "@babel/runtime": 7.23.2
   peerDependencies:
     react: "*"
     react-dom: "*"
-  checksum: 652cf70610b933e727d8b6c9897caee94e71a7d0004c039a987b68ce2c39d03b142772d5a269668c2ac33d11e728fbb7322d8fd93e54f6046cf61cada9cc9850
+  checksum: 12021b06c3b4e97760c1be57a0c4bdc36cfdf4b8a562d9e2654a0db5c273ca1bac700df7d2c9c67eab9093f95c52ab19664d2a962ed752e7caf264d334230ed1
   languageName: node
   linkType: hard
 
@@ -614,7 +614,7 @@ __metadata:
     "@types/react-dom": 18.3.0
     "@volvo-cars/market-sites": 1.8.0
     "@volvo-cars/site-footer-embed": 1.1.0
-    "@volvo-cars/site-nav-embed": 4.1.0
+    "@volvo-cars/site-nav-embed": 4.2.0
     next: 14.2.4
     react: 18.3.1
     react-dom: 18.3.1
@@ -630,7 +630,7 @@ __metadata:
     "@types/react": 18.3.3
     "@types/react-dom": 18.3.0
     "@volvo-cars/market-sites": 1.8.0
-    "@volvo-cars/site-nav-embed": 4.1.0
+    "@volvo-cars/site-nav-embed": 4.2.0
     next: 14.2.4
     react: 18.3.1
     react-dom: 18.3.1
