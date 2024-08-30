@@ -849,8 +849,8 @@ __metadata:
   linkType: hard
 
 "vcc-ui@npm:^4.0.0":
-  version: 4.8.0
-  resolution: "vcc-ui@npm:4.8.0"
+  version: 4.9.0
+  resolution: "vcc-ui@npm:4.9.0"
   dependencies:
     "@babel/runtime": ^7.17.0
     "@volvo-cars/react-aria": ^0.3.2
@@ -878,7 +878,7 @@ __metadata:
   peerDependencies:
     "@types/react": ">= 17.0.0"
     react: ^17.0.0 || ^18.0.0
-  checksum: 3ae6289bbd41f4033f37499fd50604227af3d38c8ae862fd29db1d5a277e9de777ca7d2c9a362fa21bd6bf1c4f230e9b37ddf51436ebc55b2aac11a082710f81
+  checksum: 1940ec48b7b8597a9e4d4330b4ff812c6b566307942e524033eb4b132e2c49949f368c3e999e9d8c7e6d1aed0312ce2248a61dd8876cc9ee67a3d0ff68f28ae6
   languageName: node
   linkType: hard
 
