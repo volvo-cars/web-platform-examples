@@ -133,13 +133,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.3.4":
-  version: 18.3.4
-  resolution: "@types/react@npm:18.3.4"
+"@types/react@npm:*, @types/react@npm:18.3.5":
+  version: 18.3.5
+  resolution: "@types/react@npm:18.3.5"
   dependencies:
     "@types/prop-types": "*"
     csstype: ^3.0.2
-  checksum: 555ccd1af86a23c781dea0360de64b2f7a0708cdcbf9e6496744b77630065868526fd55147c727dc5ef11b7fd712b04f7898757a84c67e2eb9dfd4c4ead10d95
+  checksum: 63d2ff473b348c902b68c20be55d2c5124d078c4336c2d1778f316c27789ed596657e8e714022ce14fb24994b0960fc64c913e629bb0bf85815355b0c31eb46b
   languageName: node
   linkType: hard
 
@@ -593,7 +593,7 @@ __metadata:
   resolution: "nextjs-site-footer-pages-router@workspace:nextjs/pages-router/site-footer"
   dependencies:
     "@types/node": 20.16.2
-    "@types/react": 18.3.4
+    "@types/react": 18.3.5
     "@types/react-dom": 18.3.0
     "@volvo-cars/market-sites": 1.8.0
     "@volvo-cars/site-footer-embed": 1.3.0
@@ -610,7 +610,7 @@ __metadata:
   resolution: "nextjs-site-navigation-footer@workspace:nextjs/site-navigation-footer"
   dependencies:
     "@types/node": 20.16.2
-    "@types/react": 18.3.4
+    "@types/react": 18.3.5
     "@types/react-dom": 18.3.0
     "@volvo-cars/market-sites": 1.8.0
     "@volvo-cars/site-footer-embed": 1.3.0
@@ -627,7 +627,7 @@ __metadata:
   resolution: "nextjs-site-navigation-pages-router@workspace:nextjs/pages-router/site-navigation"
   dependencies:
     "@types/node": 20.16.2
-    "@types/react": 18.3.4
+    "@types/react": 18.3.5
     "@types/react-dom": 18.3.0
     "@volvo-cars/market-sites": 1.8.0
     "@volvo-cars/site-nav-embed": 4.3.0
