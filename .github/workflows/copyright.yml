@@ -30,7 +30,7 @@ jobs:
             limitations under the License.
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           commit-message: Add copyright comment to files
           title: Add Copyright Comment to Files
