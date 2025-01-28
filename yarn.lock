@@ -150,47 +150,47 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@volvo-cars/react-aria@npm:^0.3.2":
-  version: 0.3.2
-  resolution: "@volvo-cars/react-aria@npm:0.3.2"
+"@volvo-cars/react-aria@npm:^0.3.3":
+  version: 0.3.3
+  resolution: "@volvo-cars/react-aria@npm:0.3.3"
   dependencies:
-    "@volvo-cars/react-descendants": ^0.5.3
+    "@volvo-cars/react-descendants": ^0.5.4
   peerDependencies:
     react: ^16.3.0 || ^17.0.0 || ^18.0.0
-  checksum: 291f493da3c1bf1678687c9123526f122984a60cbf1b7b1b7f5dfc02799b9ccda563efd6b115394713a98b4b9f2ec0891400f70f193f75d3b235a7bf7b65b83c
+  checksum: a8c1502c647cd6e4e1ed58b60932915fe67fd3dd162a70e1fac51492c66e144a2f139e857c006624623cb811fbf46a91f8884bc72d25466ad6892405764e0a3b
   languageName: node
   linkType: hard
 
-"@volvo-cars/react-descendants@npm:^0.5.3":
-  version: 0.5.3
-  resolution: "@volvo-cars/react-descendants@npm:0.5.3"
+"@volvo-cars/react-descendants@npm:^0.5.4":
+  version: 0.5.4
+  resolution: "@volvo-cars/react-descendants@npm:0.5.4"
   dependencies:
-    "@volvo-cars/react-layout-utils": ^0.7.2
+    "@volvo-cars/react-layout-utils": ^0.7.3
   peerDependencies:
     react: ^16.3.0 || ^17.0.0 || ^18.0.0
-  checksum: db85014d2ee4b7ee70e57907deb8618b52321498b92764ac1086ab1bf9dc0dd610a95e3163336ba49c5a7f7265d92f69f467ce4a8302b8c1c28e873f299a26bd
+  checksum: 3654612f46ae86ea3e852e363055d159246307e6c048443ae3c03224465c8b1a7f9032e9f2c6f83bd3f81e1d581ae9fcffabe2f8f17508230885cb5709c35494
   languageName: node
   linkType: hard
 
-"@volvo-cars/react-layout-utils@npm:^0.7.2":
-  version: 0.7.2
-  resolution: "@volvo-cars/react-layout-utils@npm:0.7.2"
+"@volvo-cars/react-layout-utils@npm:^0.7.3":
+  version: 0.7.3
+  resolution: "@volvo-cars/react-layout-utils@npm:0.7.3"
   dependencies:
-    "@volvo-cars/react-utils": ^1.0.2
+    "@volvo-cars/react-utils": ^1.1.0
     lodash: ^4.17.21
     use-resize-observer: ^9.0.0
   peerDependencies:
     react: ^16.3.0 || ^17.0.0 || ^18.0.0
-  checksum: b2b7412b496643e5c96ee86832d066a671762755fd08bc859c7f14e05d26c86035c6ebe0c33dc8f19e15b19bac53861641ea3d95b4fa1f46573da4b7df160288
+  checksum: 0b1683de081c1a7671e0aaa58b749df3b2f36069cc5996ef36ef34de0a65f6790daf6043094b76ccfc210e48ef02522d59e1e226408509f38fba2f560c913e59
   languageName: node
   linkType: hard
 
-"@volvo-cars/react-utils@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@volvo-cars/react-utils@npm:1.0.2"
+"@volvo-cars/react-utils@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@volvo-cars/react-utils@npm:1.1.0"
   peerDependencies:
     react: ^16.3.0 || ^17.0.0 || ^18.0.0
-  checksum: 2d2d4bb92e85bc7e13d4f4062ee84ba59a1e5dd42668fcb48022e728e2d09fd1ae98ce88640dd59acaeb76ba438f85834cbc665e43aaf28d023023b5d5b2605c
+  checksum: cbfdf1f39918364f8300dd744e3846fe0f674d5b24974f1234218d13dd46cd6ebdff15c9aed785be81352fce7e970a7cadbb1df3f3b514479a482b45934426c8
   languageName: node
   linkType: hard
 
@@ -849,11 +849,11 @@ __metadata:
   linkType: hard
 
 "vcc-ui@npm:^4.0.0":
-  version: 4.10.0
-  resolution: "vcc-ui@npm:4.10.0"
+  version: 4.10.1
+  resolution: "vcc-ui@npm:4.10.1"
   dependencies:
     "@babel/runtime": ^7.17.0
-    "@volvo-cars/react-aria": ^0.3.2
+    "@volvo-cars/react-aria": ^0.3.3
     "@volvo-cars/ui-design-tokens": ^2.17.0
     css-in-js-utils: ^3.0.4
     csstype: ^3.0.6
@@ -878,7 +878,7 @@ __metadata:
   peerDependencies:
     "@types/react": ">= 17.0.0"
     react: ^17.0.0 || ^18.0.0
-  checksum: 726e915f4cc60409b6d733276ca3ae91819984c7460ebf20b9aba9d352c5e1bfc966a28e51a5b863122f89c2177dbbd8aa75d9ab8e4d5d1370826afbbe618db8
+  checksum: 02e7dee3804c146827fc545ad77c4dfbc245c43a50200b18ca0422d0052f8b57666b4b614cf569e2af4d192609da4c4fc20ebe687c5889812bbe6cd0541e4901
   languageName: node
   linkType: hard
 
