@@ -143,10 +143,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@volvo-cars/market-sites@npm:1.8.0":
-  version: 1.8.0
-  resolution: "@volvo-cars/market-sites@npm:1.8.0"
-  checksum: 91541cf9e329913b37d9228005e9b5626c80d19c39b39343e97d28064dc9a9c819f6284bc9e9c112f9c87560f61c42d888a1ec93ea98671b0bcd7044724f0c7e
+"@volvo-cars/market-sites@npm:1.9.0":
+  version: 1.9.0
+  resolution: "@volvo-cars/market-sites@npm:1.9.0"
+  checksum: 02333cbaf672a46c6e5933875c8e5f75eec399c1965be2e51af555d364c98ad2a59df3434ffc45f17e92cbfbbb0e5f85713403ef8dceb7e768a758b57766fe59
   languageName: node
   linkType: hard
 
@@ -595,7 +595,7 @@ __metadata:
     "@types/node": 22.13.4
     "@types/react": 18.3.18
     "@types/react-dom": 18.3.5
-    "@volvo-cars/market-sites": 1.8.0
+    "@volvo-cars/market-sites": 1.9.0
     "@volvo-cars/site-footer-embed": 1.3.1
     next: 14.2.23
     react: 18.3.1
@@ -612,7 +612,7 @@ __metadata:
     "@types/node": 22.13.4
     "@types/react": 18.3.18
     "@types/react-dom": 18.3.5
-    "@volvo-cars/market-sites": 1.8.0
+    "@volvo-cars/market-sites": 1.9.0
     "@volvo-cars/site-footer-embed": 1.3.1
     "@volvo-cars/site-nav-embed": 4.4.0
     next: 14.2.23
@@ -629,7 +629,7 @@ __metadata:
     "@types/node": 22.13.4
     "@types/react": 18.3.18
     "@types/react-dom": 18.3.5
-    "@volvo-cars/market-sites": 1.8.0
+    "@volvo-cars/market-sites": 1.9.0
     "@volvo-cars/site-nav-embed": 4.4.0
     next: 14.2.23
     react: 18.3.1
