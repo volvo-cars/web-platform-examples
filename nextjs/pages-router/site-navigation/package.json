@@ -10,13 +10,13 @@
   },
   "dependencies": {
     "@types/node": "22.13.10",
-    "@types/react": "18.3.18",
-    "@types/react-dom": "18.3.5",
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.4",
     "@volvo-cars/market-sites": "1.9.0",
     "@volvo-cars/site-nav-embed": "4.4.0",
     "next": "14.2.24",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
     "typescript": "5.8.2",
     "vcc-ui": "^4.0.0"
   }
