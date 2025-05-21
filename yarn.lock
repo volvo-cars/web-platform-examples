@@ -117,12 +117,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.14.1":
-  version: 22.14.1
-  resolution: "@types/node@npm:22.14.1"
+"@types/node@npm:22.15.18":
+  version: 22.15.18
+  resolution: "@types/node@npm:22.15.18"
   dependencies:
     undici-types: ~6.21.0
-  checksum: e22363f40ac8290da2bb5261c2b348241fd93b000908cefd3c56575df9d4f6b8d102fc8631275eac7ec4a9e0ac4f38f01c9d8104ebbda76c936aef96fd1e55f3
+  checksum: 16fb2c1f7be4156578648bfe074c856fca309ac66b9b74f9c5887ce778ce6cbd06d2883eaa397837e3628cddb02a5b0859764c5db0ea24f55f0cfbf54cca06fc
   languageName: node
   linkType: hard
 
@@ -601,7 +601,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs-site-footer-pages-router@workspace:nextjs/pages-router/site-footer"
   dependencies:
-    "@types/node": 22.14.1
+    "@types/node": 22.15.18
     "@types/react": 18.3.20
     "@types/react-dom": 18.3.6
     "@volvo-cars/market-sites": 1.12.0
@@ -618,7 +618,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs-site-navigation-footer@workspace:nextjs/site-navigation-footer"
   dependencies:
-    "@types/node": 22.14.1
+    "@types/node": 22.15.18
     "@types/react": 18.3.20
     "@types/react-dom": 18.3.6
     "@volvo-cars/market-sites": 1.12.0
@@ -635,7 +635,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs-site-navigation-pages-router@workspace:nextjs/pages-router/site-navigation"
   dependencies:
-    "@types/node": 22.14.1
+    "@types/node": 22.15.18
     "@types/react": 18.3.20
     "@types/react-dom": 18.3.6
     "@volvo-cars/market-sites": 1.12.0
