@@ -5,15 +5,6 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@babel/runtime@npm:7.23.2":
-  version: 7.23.2
-  resolution: "@babel/runtime@npm:7.23.2"
-  dependencies:
-    regenerator-runtime: ^0.14.0
-  checksum: 6c4df4839ec75ca10175f636d6362f91df8a3137f86b38f6cd3a4c90668a0fe8e9281d320958f4fbd43b394988958585a17c3aab2a4ea6bf7316b22916a371fb
-  languageName: node
-  linkType: hard
-
 "@babel/runtime@npm:7.26.10, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.17.0":
   version: 7.26.10
   resolution: "@babel/runtime@npm:7.26.10"
@@ -203,14 +194,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@volvo-cars/site-footer-embed@npm:1.4.0":
-  version: 1.4.0
-  resolution: "@volvo-cars/site-footer-embed@npm:1.4.0"
+"@volvo-cars/site-footer-embed@npm:1.5.0":
+  version: 1.5.0
+  resolution: "@volvo-cars/site-footer-embed@npm:1.5.0"
   dependencies:
-    "@babel/runtime": 7.23.2
+    "@babel/runtime": 7.26.10
   peerDependencies:
     react: "*"
-  checksum: f352dccb534dbb53a63317974cb0085c8775957a6c50236b887e314b5bcf0fe1655b3844dd981b61c1532ff38518c98d8a5d309bf948cf80690999e8a93e8a91
+  checksum: 66c05821b7b09f919b40a0aa3de0b4c4fcd6d7faed3b2a15effd6c94438d4c9c1376a0e0103fe202a5520d0db956bae420270e68dbd73d15ba6319457afee326
   languageName: node
   linkType: hard
 
@@ -605,7 +596,7 @@ __metadata:
     "@types/react": 18.3.20
     "@types/react-dom": 18.3.6
     "@volvo-cars/market-sites": 1.12.0
-    "@volvo-cars/site-footer-embed": 1.4.0
+    "@volvo-cars/site-footer-embed": 1.5.0
     next: 14.2.28
     react: 18.3.1
     react-dom: 18.3.1
@@ -622,7 +613,7 @@ __metadata:
     "@types/react": 18.3.20
     "@types/react-dom": 18.3.6
     "@volvo-cars/market-sites": 1.12.0
-    "@volvo-cars/site-footer-embed": 1.4.0
+    "@volvo-cars/site-footer-embed": 1.5.0
     "@volvo-cars/site-nav-embed": 4.5.0
     next: 14.2.28
     react: 18.3.1
