@@ -133,22 +133,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.3.6":
-  version: 18.3.6
-  resolution: "@types/react-dom@npm:18.3.6"
+"@types/react-dom@npm:18.3.7":
+  version: 18.3.7
+  resolution: "@types/react-dom@npm:18.3.7"
   peerDependencies:
     "@types/react": ^18.0.0
-  checksum: 03434d70eb3213413514303c684fe56672a0e5ac6629be92a34d521f926f9e9eb89dcabf9ff485df485a11244e0f4b47dbb6168f7a6a0b664518c9bafb25711d
+  checksum: c8b63ec944d2a68992b4dba474003fe55ee1d949c4b9c8fe97eecb2290de23f76acfb670b2f7ceb46a5fc8e46808d1745369b03edda48a7a0cf730eff4c5d315
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.3.20":
-  version: 18.3.20
-  resolution: "@types/react@npm:18.3.20"
+"@types/react@npm:18.3.31":
+  version: 18.3.31
+  resolution: "@types/react@npm:18.3.31"
   dependencies:
     "@types/prop-types": "*"
-    csstype: ^3.0.2
-  checksum: a93a4eec87c671ad9d68eaedaa2aa3688926409802939d2b291800cf926c771eb505a18721174364217ae9e1e8b89d09c1519f06ba1f168271de9f4c832710ea
+    csstype: ^3.2.2
+  checksum: fe17985f3debdc83e1804102b51e0a59ba64295c2f10de92ba8c7c8276b70ac3b11bf19870d31279feaa20b00e8d77fa7a17852137a2beba8fad45350bc66d76
   languageName: node
   linkType: hard
 
@@ -265,10 +265,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csstype@npm:^3.0.2, csstype@npm:^3.0.5, csstype@npm:^3.0.6":
-  version: 3.1.1
-  resolution: "csstype@npm:3.1.1"
-  checksum: 1f7b4f5fdd955b7444b18ebdddf3f5c699159f13e9cf8ac9027ae4a60ae226aef9bbb14a6e12ca7dba3358b007cee6354b116e720262867c398de6c955ea451d
+"csstype@npm:^3.0.5, csstype@npm:^3.0.6, csstype@npm:^3.2.2":
+  version: 3.2.3
+  resolution: "csstype@npm:3.2.3"
+  checksum: cb882521b3398958a1ce6ca98c011aec0bde1c77ecaf8a1dd4db3b112a189939beae3b1308243b2fe50fc27eb3edeb0f73a5a4d91d928765dc6d5ecc7bda92ee
   languageName: node
   linkType: hard
 
@@ -602,8 +602,8 @@ __metadata:
   resolution: "nextjs-site-footer-pages-router@workspace:nextjs/pages-router/site-footer"
   dependencies:
     "@types/node": 22.15.18
-    "@types/react": 18.3.20
-    "@types/react-dom": 18.3.6
+    "@types/react": 18.3.31
+    "@types/react-dom": 18.3.7
     "@volvo-cars/market-sites": 1.12.0
     "@volvo-cars/site-footer-embed": 1.4.0
     next: 14.2.28
@@ -619,8 +619,8 @@ __metadata:
   resolution: "nextjs-site-navigation-footer@workspace:nextjs/site-navigation-footer"
   dependencies:
     "@types/node": 22.15.18
-    "@types/react": 18.3.20
-    "@types/react-dom": 18.3.6
+    "@types/react": 18.3.31
+    "@types/react-dom": 18.3.7
     "@volvo-cars/market-sites": 1.12.0
     "@volvo-cars/site-footer-embed": 1.4.0
     "@volvo-cars/site-nav-embed": 4.5.0
@@ -636,8 +636,8 @@ __metadata:
   resolution: "nextjs-site-navigation-pages-router@workspace:nextjs/pages-router/site-navigation"
   dependencies:
     "@types/node": 22.15.18
-    "@types/react": 18.3.20
-    "@types/react-dom": 18.3.6
+    "@types/react": 18.3.31
+    "@types/react-dom": 18.3.7
     "@volvo-cars/market-sites": 1.12.0
     "@volvo-cars/site-nav-embed": 4.5.0
     next: 14.2.28
